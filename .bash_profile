@@ -11,3 +11,6 @@ alias chrem="git remote set-url origin"
 alias abortmerge="git reset --hard HEAD"
 alias bashprofile="cd; vi .bash_profile;"
 alias rem="git remote -v;"
+com(){
+git commit -m "$1";
+}
